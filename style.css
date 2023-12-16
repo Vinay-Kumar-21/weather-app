@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background: url("./Assets/nightSky2.jpg");
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.weather{
+    display: flex;
+    align-items: center;
+}
+.weather > div{
+    color: white;
+    margin:  0.75rem;
+}
+.weather p{
+    font-size: 1.25rem;
+}
+.weather span{
+    color: white;
+    font-size: 0.75rem;
+}
+nav{
+    height: 15vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.searchBar{
+    width: 50vw;
+    border: none;
+    outline: none;
+    font-size: 1.25rem;
+    background-color:transparent;
+    color: white;
+    border-bottom: 3px solid white;
+    padding: 1rem 0;
+}
+nav button{
+    background-color:burlywood;
+    color: white;
+    font-size: 1.25rem;
+    border:none;
+    padding: 1rem 2rem;
+    margin-left: 1rem;
+    cursor: pointer;
+}

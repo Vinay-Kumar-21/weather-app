@@ -4,12 +4,12 @@
 }
 .container{
     background: url("./Assets/nightSky2.jpg");
-    width: 100%;
     height: 85vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .weather{
     display: flex;
     align-items: center;
@@ -19,11 +19,11 @@
     margin:  0.75rem;
 }
 .weather p{
-    font-size: 1.25rem;
+    font-size: 1.5rem;
 }
 .weather span{
     color: white;
-    font-size: 0.75rem;
+    font-size: 0.8rem;
 }
 nav{
     height: 15vh;

@@ -1,8 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.container{
+
+.container {
     background: url("./Assets/nightSky2.jpg");
     height: 85vh;
     display: flex;
@@ -10,43 +11,49 @@
     justify-content: center;
 }
 
-.weather{
+.weather {
     display: flex;
     align-items: center;
 }
-.weather > div{
+
+.weather>div {
     color: white;
-    margin:  0.75rem;
+    margin: 0.75rem;
 }
-.weather p{
+
+.weather p {
     font-size: 1.5rem;
 }
-.weather span{
+
+.weather span {
     color: white;
     font-size: 0.8rem;
 }
-nav{
+
+nav {
     height: 15vh;
     background-color: black;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.searchBar{
+
+.searchBar {
     width: 50vw;
     border: none;
     outline: none;
     font-size: 1.25rem;
-    background-color:transparent;
+    background-color: transparent;
     color: white;
     border-bottom: 3px solid white;
     padding: 1rem 0;
 }
-nav button{
-    background-color:burlywood;
+
+nav button {
+    background-color: orangered;
     color: white;
     font-size: 1.25rem;
-    border:none;
+    border: none;
     padding: 1rem 2rem;
     margin-left: 1rem;
     cursor: pointer;

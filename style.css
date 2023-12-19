@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 
 .container {
@@ -16,18 +17,26 @@
     align-items: center;
 }
 
+.temp {
+    font-size: 1.5rem;
+}
+
 .weather>div {
     color: white;
     margin: 0.75rem;
 }
 
 .weather p {
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .weather span {
     color: white;
-    font-size: 0.8rem;
+    font-size: 1rem;
+}
+
+.weather-cond img {
+    width: 2.25rem;
 }
 
 nav {

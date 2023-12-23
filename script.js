@@ -30,7 +30,7 @@ form.addEventListener('submit', function (e) {
       console.log(data);
     })
     .catch(error => {
-      alert("Enter valid input");
+      alert("Enter a valid city name");
       console.error('Error:', error);
     });
 

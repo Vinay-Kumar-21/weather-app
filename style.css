@@ -5,7 +5,9 @@
 }
 
 .container {
-    background: url("./Assets/nightSky2.jpg");
+    background-image: url('./Assets/nightSky2.jpg');
+    background-repeat: no-repeat;
+    background-size: 1500px 700px;
     height: 85vh;
     display: flex;
     align-items: center;
@@ -22,17 +24,17 @@
 }
 
 .weather>div {
-    color: white;
+    color: yellow;
     margin: 0.75rem;
 }
 
 .weather p {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .weather span {
-    color: white;
-    font-size: 1rem;
+    color: yellow;
+    font-size: 1.5rem;
 }
 
 .weather-cond img {

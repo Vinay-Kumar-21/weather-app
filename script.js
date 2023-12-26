@@ -48,6 +48,9 @@ form.addEventListener('submit', function (e) {
       else if (data.current.condition.text == 'Moderate or heavy rain with thunder') {
         container.style.backgroundImage = "url('../Assets/thunderRain.jpg')";
       }
+      else if (data.current.condition.text == 'Partly cloudy') {
+        container.style.backgroundImage = "url('../Assets/cloudy.jpg')";
+      }
 
     })
 

@@ -33,7 +33,7 @@ form.addEventListener('submit', function (e) {
       console.log(data);
 
 
-      /*if (data.current.condition.text == 'Sunny') {
+      if (data.current.condition.text == 'Sunny') {
         container.style.backgroundImage = "url('../Assets/sun.jpg')";
       }
       else if (data.current.condition.text == 'Clear') {
@@ -50,7 +50,7 @@ form.addEventListener('submit', function (e) {
       }
       else if (data.current.condition.text == 'Partly cloudy') {
         container.style.backgroundImage = "url('../Assets/cloudy.jpg')";
-      }*/
+      }
 
     })
 

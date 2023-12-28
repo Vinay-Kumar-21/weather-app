@@ -33,7 +33,7 @@ form.addEventListener('submit', function (e) {
       console.log(data);
 
 
-      if (data.current.condition.text == 'Sunny') {
+      /*if (data.current.condition.text == 'Sunny') {
         container.style.backgroundImage = "url('../Assets/sun.jpg')";
       }
       else if (data.current.condition.text == 'Clear') {
@@ -42,7 +42,7 @@ form.addEventListener('submit', function (e) {
       else if (data.current.condition.text == 'Mist') {
         container.style.backgroundImage = "url('../Assets/mist.jpg')";
       }
-      else if (data.current.condition.text == 'patchy rain possible') {
+      else if (data.current.condition.text == 'patchy rain possible' || data.current.condition.text == 'Light rain') {
         container.style.backgroundImage = "url('../Assets/patchyRain.jpg')";
       }
       else if (data.current.condition.text == 'Moderate or heavy rain with thunder') {
@@ -50,7 +50,7 @@ form.addEventListener('submit', function (e) {
       }
       else if (data.current.condition.text == 'Partly cloudy') {
         container.style.backgroundImage = "url('../Assets/cloudy.jpg')";
-      }
+      }*/
 
     })
 
